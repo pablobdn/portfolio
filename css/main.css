@@ -15,6 +15,10 @@ a.navbar-brand {
 }
 
 /* Hero */
+#hero .overlay {
+	padding-top: 100px;
+}
+
 #hero .overlay h1 {
 	font-weight: bold;
 	font-size: 5vw;
@@ -37,16 +41,9 @@ a.navbar-brand {
 }
 
 #hero .carousel-inner img {
-	height: 86vh;
+	height: 100vh;
 	object-fit: cover;
 	filter: grayscale(10%);
-}
-
-@media screen and (max-width: 768px)
-{
-	#hero .carousel-inner img {
-		height: 80vh;
-	}	
 }
 
 #hero .overlay {
