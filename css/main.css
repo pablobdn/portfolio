@@ -130,3 +130,34 @@ a.navbar-brand {
 #projects img.project-image {
 	max-width: 100%;
 }
+
+/* Contact Me */
+#contact-me {
+	background-color: #182130;
+	color: white;
+}
+
+#contact-me .container {
+	margin-top: 20px;
+    height: 30vh;
+}
+
+#contact-me .container .row {
+	height: 100%;
+}
+
+#contact-me a {
+	color: white;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+
+#contact-me i {
+	font-size: 30px;
+}
+
+#contact-me p {
+	margin: 0;
+	padding-left: 10px;
+}
