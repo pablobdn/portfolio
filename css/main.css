@@ -8,3 +8,40 @@ a.navbar-brand {
 	margin-right: 20px;
 	padding: 0;
 }
+
+/* Hero */
+#hero .overlay h1 {
+	font-weight: bold;
+	font-size: 5vw;
+	text-align: end
+}
+
+#hero .overlay h2 {
+	font-size: 3vw;
+}
+
+#hero .carousel-inner img {
+	height: 86vh;
+	object-fit: cover;
+	filter: grayscale(10%);
+}
+
+@media screen and (max-width: 768px)
+{
+	#hero .carousel-inner img {
+		height: 100%;
+	}	
+}
+
+#hero .overlay {
+	color: white;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+	left: 0;
+	z-index: 10;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: flex;
+	align-items: flex-start;
+	padding-bottom: 50px;
+}
