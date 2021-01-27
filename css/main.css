@@ -124,3 +124,9 @@ a.navbar-brand {
 #about-me .knowledge li {
     font-size: 16px;
 }
+
+
+/* Projects */
+#projects img.project-image {
+	max-width: 100%;
+}
