@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+a.navbar-brand {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Caveat Brush', cursive;
+	margin: 0;
+	margin-right: 20px;
+	padding: 0;
+}
